@@ -7,9 +7,11 @@
   <name>caller-id</name>
   <description>FIXME: write description</description>
   <scm>
-    <tag>6ea80c234ffbc76d8d38fb0e68b928a9fd340f60
+    <connection>scm:git:git://github.com/rhinoman/caller-id.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/rhinoman/caller-id.git</developerConnection>
+    <tag>8f890054b092531daef910e715a9feb6af1091f7
 </tag>
-    <url/>
+    <url>https://github.com/rhinoman/caller-id</url>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>

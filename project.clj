@@ -25,11 +25,11 @@
              :dev {:env {:db-name "callerid"}
                    :dependencies [[javax.servlet/javax.servlet-api "3.1.0"]
                                   [cheshire "5.6.3"]
-                                  [org.clojure/tools.nrepl "0.2.13"]
-                                  [ring/ring-mock "0.3.0"]]
+                                  [org.clojure/tools.nrepl "0.2.13"]]
                    :plugins [[lein-ring "0.10.0"]]}
              :test {:env {:db-name "callerid-test"}
                     :dependencies [[ring/ring-mock "0.3.0"]
                                    [cheshire "5.7.1"]
+                                   [ring/ring-mock "0.3.0"]
                                    [org.clojure/tools.nrepl "0.2.13"]]
                     :plugins [[lein-ring "0.10.0"]]}})
