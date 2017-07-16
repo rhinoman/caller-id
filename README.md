@@ -4,9 +4,9 @@ Caller ID task solution.  Contains an embedded Jetty server.
 
 
 ## Usage
-if using leiningen: `lein run --port <portnum>`
+if using leiningen: `lein run --port=<portnum>`
 
-Run an uberjar with `java -jar caller_id.jar --port <portnum>`
+Run an uberjar with `java -jar caller_id.jar --port=<portnum>`
 
 Defaults to port 8001 if none is specified.
 
