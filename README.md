@@ -51,7 +51,7 @@ A swagger interface is provided for testing; point your browser at
 Uses an in-memory H2 database to store data.  Ingesting the seed data may take a minute.
 I've batched up the inserts, hopefully that helps.
 
-The seed data appears to contain a few (I could 4) records which violate 
+The seed data appears to contain a few (I count 4) records which violate 
 the <number,context> unique constraint specified in the instructions. 
 I'm using a UNIQUE constraint in the H2 database to enforce this.
 You'll see a few warnings for this in the log, these records are skipped and not loaded into the DB.
